@@ -1,0 +1,7 @@
+Guide d’installation du plugin Visibilité-Choucas compatible avec la version 3.4
+1.	Copier le répertoire "choucas_visibility" dans « C:\Users\nom_de_votre_session\AppData\Roaming\QGIS\QGIS3\profiles\default\python\plugins\ »
+2.	Lancer Qgis 3.4 et activer le plugin. C'est un plugin de Processing => il ajoute une entrée dans le panneau "Traitements"
+3.	Ouvrez au moins un MNT, éventuellement aussi un MNS
+4.	Créer un SHP de points observés. Il faudra faire le calcul avec un seul à la fois.
+5.	Penser à limité la distance du Radius à moins 25 km soit à la valeur de 25000 m, au-delà ça rame beaucoup (avec un MNT/MNS de résolution 5m)
+6.	Si vous ne voulez pas conserver le DBH décochez la case « ouvrir le fichier en sortie
