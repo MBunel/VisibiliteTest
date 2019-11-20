@@ -49,6 +49,7 @@ class Choucas_visibilityPlugin(object):
         self.provider = None
 		print("Premier test")
 		print("Deuxieme test")
+		print("3ème test")
 
     def initProcessing(self):
         """Init Processing provider for QGIS >= 3.8."""
